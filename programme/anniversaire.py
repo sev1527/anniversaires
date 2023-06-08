@@ -243,9 +243,7 @@ class Accueil(Tk):
     def nouveau(self):
         self.action = True
         showinfo("Nouveautés", """Nouveau (le 08/06) :
-Autre :
-- changement du séparateur du fichier de données""")
-
+- le programme est maintenant disponible sur GitHub""")
 
 class Modifier(Toplevel):
     def __init__(self, master):
@@ -399,10 +397,7 @@ class Meteo(Toplevel):
         self.focus_force()
     
     def adapte(self, nb):
-        if nb:
-            self.t.config(height=self.winfo_height()//21-1)
-        else:
-            self.t.config(height=self.winfo_height()//21)
+        self.t.config(height=self.winfo_height()//21-1)
         if nb > 20:
             self.keep()
             self.after(20, lambda: self.adapte(0))
