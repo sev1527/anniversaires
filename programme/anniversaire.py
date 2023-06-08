@@ -393,12 +393,16 @@ class Meteo(Toplevel):
             self.suppr.update()
         self.suppr.destroy()
         self.t.pack()
+        Label(self, text="Source météo : https://prevision-meteo.ch/").pack()
         
         self.adapte(0)
         self.focus_force()
     
     def adapte(self, nb):
-        self.t.config(height=self.winfo_height()//21)
+        if nb:
+            self.t.config(height=self.winfo_height()//21-1)
+        else:
+            self.t.config(height=self.winfo_height()//21)
         if nb > 20:
             self.keep()
             self.after(20, lambda: self.adapte(0))
