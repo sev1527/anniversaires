@@ -15,7 +15,7 @@ src="https://github.com/sev1527/anniversaires/blob/main/metadata/capture_accueil
 
 <h2>Prérequis</h2>
 <ul>
-  <li>python 3</li>
+  <li>python 3 (<a href="https://www.python.org/" target="_blank">site officiel</a>)</li>
   <li>Pillow (utilisez <code>python3 -m pip install Pillow</code> pour installer <a href="https://pillow.readthedocs.io/en/stable/installation.html" rel="help" target="_blank">plus</a>)</li>
 </ul>
 
