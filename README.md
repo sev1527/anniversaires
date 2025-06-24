@@ -18,6 +18,8 @@ src="https://github.com/sev1527/anniversaires/blob/main/metadata/capture_accueil
   <li>python 3 (<a href="https://www.python.org/" target="_blank">site officiel</a>)</li>
   <li>Pillow (utilisez <code>python3 -m pip install Pillow</code> pour installer <a href="https://pillow.readthedocs.io/en/stable/installation.html" rel="help" target="_blank">plus</a>)</li>
   <li>requests (utilisez <code>python3 -m pip install requests</code> pour installer <a href="https://pypi.org/project/requests/" rel="help" target="_blank">plus</a>)</li>
+  <li>numpy (utilisez <code>python3 -m pip install numpy</code> pour installer <a href="https://pypi.org/project/numpy/" rel="help" target="_blank">plus</a>)</li>
+  <li>PyQt5 (utilisez <code>python3 -m pip install PyQt5</code> pour installer <a href="https://pypi.org/project/PyQt5/" rel="help" target="_blank">plus</a>)</li>
 </ul>
 
 <h2>Questions/réponses</h2>
