@@ -17,13 +17,17 @@ src="https://github.com/sev1527/anniversaires/blob/main/metadata/capture_accueil
 <ul>
   <li>python 3 (<a href="https://www.python.org/" target="_blank">site officiel</a>)</li>
   <li>Pillow (utilisez <code>python3 -m pip install Pillow</code> pour installer <a href="https://pillow.readthedocs.io/en/stable/installation.html" rel="help" target="_blank">plus</a>)</li>
+  <li>requests (utilisez <code>python3 -m pip install requests</code> pour installer <a href="https://pypi.org/project/requests/" rel="help" target="_blank">plus</a>)</li>
+  <li>numpy (utilisez <code>python3 -m pip install numpy</code> pour installer <a href="https://pypi.org/project/numpy/" rel="help" target="_blank">plus</a>)</li>
+  <li>PyQt5 (utilisez <code>python3 -m pip install PyQt5</code> pour installer <a href="https://pypi.org/project/PyQt5/" rel="help" target="_blank">plus</a>)</li>
 </ul>
+<p>Si la commande <code>python3</code> ne marche pas essayez <code>python</code>.</p>
 
 <h2>Questions/réponses</h2>
 <h3>Ce programme collecte-t-il mes informations personnelles ?</h3>
 <p><strong>Non</strong></p>
 <h3>Je souhaite changer la ville de la météo. Comment faire ?</h3>
-<p>Ouvrez le programme en mode édition et changez la ville ligne 19.</p>
+<p>Ouvrez le programme en mode édition et changez la ville ligne 27.</p>
 <h3>Le programme m'affiche des fausses fêtes. Que faire ?</h3>
 <p>Signalez-le moi dans <a href="https://github.com/sev1527/anniversaires/issues">l'onglet issues</a>. Comme pour tout autre problème.</p>
 <h3>J'aimerais que le programme se lance au démarrage de l'ordinateur.</h3>
