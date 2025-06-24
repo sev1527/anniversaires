@@ -21,6 +21,7 @@ src="https://github.com/sev1527/anniversaires/blob/main/metadata/capture_accueil
   <li>numpy (utilisez <code>python3 -m pip install numpy</code> pour installer <a href="https://pypi.org/project/numpy/" rel="help" target="_blank">plus</a>)</li>
   <li>PyQt5 (utilisez <code>python3 -m pip install PyQt5</code> pour installer <a href="https://pypi.org/project/PyQt5/" rel="help" target="_blank">plus</a>)</li>
 </ul>
+<p>Si la commande <code>python3</code> ne marche pas essayez <code>python</code>.</p>
 
 <h2>Questions/réponses</h2>
 <h3>Ce programme collecte-t-il mes informations personnelles ?</h3>
